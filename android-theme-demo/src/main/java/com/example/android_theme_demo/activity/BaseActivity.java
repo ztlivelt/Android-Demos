@@ -11,6 +11,8 @@ import com.example.android_theme_demo.manager.SkinFactory;
 import com.example.android_theme_demo.manager.SkinFactory.*;
 import com.example.android_theme_demo.manager.SkinManager;
 
+import java.lang.reflect.Field;
+
 /**
  * Created by zt on 2016/7/2.
  */
@@ -24,6 +26,19 @@ public class BaseActivity extends AppCompatActivity implements ISkinUpdate{
         mInflater = getLayoutInflater();
         mInflater.setFactory(mFactory);
         super.onCreate(savedInstanceState);
+       /* try {
+            mFactory = new SkinFactory();
+            mInflater = getLayoutInflater();
+
+            // 这里通过反射修改mFactorySet的值，否则使用V7包的AppCompatActivity会抛异常
+            Field field = LayoutInflater.class.getDeclaredField("mFactorySet");
+            field.setAccessible(true);
+            field.setBoolean(mInflater, false);
+
+            mInflater.setFactory(mFactory);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }*/
     }
 
     @Override
