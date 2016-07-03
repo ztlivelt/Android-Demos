@@ -1,0 +1,1 @@
+include ':app', ':commona-lib', ':android-navigation-demo', ':android-theme-demo', ':android-theme-demo-test'

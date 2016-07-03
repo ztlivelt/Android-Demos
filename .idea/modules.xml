@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android-Commona.iml" filepath="$PROJECT_DIR$/Android-Commona.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-navigation-demo/android-navigation-demo.iml" filepath="$PROJECT_DIR$/android-navigation-demo/android-navigation-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-theme-demo/android-theme-demo.iml" filepath="$PROJECT_DIR$/android-theme-demo/android-theme-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-theme-demo-test/android-theme-demo-test.iml" filepath="$PROJECT_DIR$/android-theme-demo-test/android-theme-demo-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commona-lib/commona-lib.iml" filepath="$PROJECT_DIR$/commona-lib/commona-lib.iml" />
+    </modules>
+  </component>
+</project>
